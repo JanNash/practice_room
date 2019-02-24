@@ -40,7 +40,7 @@ def main():
         _git.stash('push', '-u', '-m', stash_message)
         changes_stashed = True
 
-    xcode_project_name = 'PRODUCTNAME.xcodeproj'
+    xcode_project_name = 'PracticeRoom.xcodeproj'
 
     log_info('Running synx')
     run_cmd_args(['synx', '--prune', xcode_project_name])
