@@ -5,6 +5,9 @@
 #    pip-compile 
 #
 click==7.0                # via pip-tools
+gitdb2==2.0.5             # via gitpython
+gitpython==2.1.11
 pip-tools==3.4.0
 six==1.12.0               # via pip-tools
+smmap2==2.0.5             # via gitdb2
 xunique==4.1.4
