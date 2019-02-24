@@ -25,10 +25,19 @@
 /* Begin PBXFileReference section */
 		A79FA0146DD258F72D200FA2BCC83CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B6C1E2262C35638678FDCD2F41AF0BDB /* PracticeRoom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeRoom; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8729E32222D39800B8B6E3 /* PracticeRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8729E72222D39900B8B6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		52718816AE78C95B45780BCBD79FDD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8729E02222D39800B8B6E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C1E2262C35638678FDCD2F41AF0BDB /* PracticeRoom */,
+				ED8729E32222D39800B8B6E3 /* PracticeRoomTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +68,39 @@
 			isa = PBXGroup;
 			children = (
 				5715AD8DCEBDBF4AB8CB25EE73B497D1 /* PracticeRoom */,
+				ED8729E42222D39900B8B6E3 /* PracticeRoomTests */,
 				927C55AF5395ECF8078A9AD8F0A6ACE2 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		ED8729E42222D39900B8B6E3 /* PracticeRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8729E72222D39900B8B6E3 /* Info.plist */,
+			);
+			path = PracticeRoomTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ED8729E22222D39800B8B6E3 /* PracticeRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8729EA2222D39900B8B6E3 /* Build configuration list for PBXNativeTarget "PracticeRoomTests" */;
+			buildPhases = (
+				ED8729DF2222D39800B8B6E3 /* Sources */,
+				ED8729E02222D39800B8B6E3 /* Frameworks */,
+				ED8729E12222D39800B8B6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticeRoomTests;
+			productName = PracticeRoomTests;
+			productReference = ED8729E32222D39800B8B6E3 /* PracticeRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F7581FA6528856928B94838FE6E42446 /* PracticeRoom */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7D029235188A53F6516E39A1241D842 /* Build configuration list for PBXNativeTarget "PracticeRoom" */;
@@ -92,6 +128,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Jan Nash";
 				TargetAttributes = {
+					ED8729E22222D39800B8B6E3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					F7581FA6528856928B94838FE6E42446 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -110,9 +149,20 @@
 			projectRoot = "";
 			targets = (
 				F7581FA6528856928B94838FE6E42446 /* PracticeRoom */,
+				ED8729E22222D39800B8B6E3 /* PracticeRoomTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8729E12222D39800B8B6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E9AFDD8D5AACF325906C659DFFD7D2D /* Sources */ = {
@@ -120,6 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C5A6583BD691F76993CF44F98E7F90 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8729DF2222D39800B8B6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +308,42 @@
 			};
 			name = Debug;
 		};
+		ED8729E82222D39900B8B6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AK5BMJ7QR5;
+				INFOPLIST_FILE = PracticeRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		ED8729E92222D39900B8B6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AK5BMJ7QR5;
+				INFOPLIST_FILE = PracticeRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		FE3CD4BE0594FF27380CE1E094A3446C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,6 +362,15 @@
 			buildConfigurations = (
 				E7D9658E644D75752E023DA6D28D946B /* Debug */,
 				C34CEE7D81630A7334A33D9E0BA42CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8729EA2222D39900B8B6E3 /* Build configuration list for PBXNativeTarget "PracticeRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8729E82222D39900B8B6E3 /* Debug */,
+				ED8729E92222D39900B8B6E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
