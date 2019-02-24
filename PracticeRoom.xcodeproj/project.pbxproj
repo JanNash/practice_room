@@ -23,10 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		43C361BFF7CD35282009C6A1655C1E81 /* PracticeRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79FA0146DD258F72D200FA2BCC83CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B6C1E2262C35638678FDCD2F41AF0BDB /* PracticeRoom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeRoom; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED8729E32222D39800B8B6E3 /* PracticeRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED8729E72222D39900B8B6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63BE08F29756F8D48A3EA48DBE1D865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED8729E02222D39800B8B6E3 /* Frameworks */ = {
+		607C5B2579569DC5974B6131B0A17715 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113785AACA1C9656355CF1546202DA29 /* PracticeRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				D63BE08F29756F8D48A3EA48DBE1D865 /* Info.plist */,
+			);
+			path = PracticeRoomTests;
+			sourceTree = "<group>";
+		};
 		5715AD8DCEBDBF4AB8CB25EE73B497D1 /* PracticeRoom */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C1E2262C35638678FDCD2F41AF0BDB /* PracticeRoom */,
-				ED8729E32222D39800B8B6E3 /* PracticeRoomTests.xctest */,
+				43C361BFF7CD35282009C6A1655C1E81 /* PracticeRoomTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,29 +76,21 @@
 			isa = PBXGroup;
 			children = (
 				5715AD8DCEBDBF4AB8CB25EE73B497D1 /* PracticeRoom */,
-				ED8729E42222D39900B8B6E3 /* PracticeRoomTests */,
+				113785AACA1C9656355CF1546202DA29 /* PracticeRoomTests */,
 				927C55AF5395ECF8078A9AD8F0A6ACE2 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		ED8729E42222D39900B8B6E3 /* PracticeRoomTests */ = {
-			isa = PBXGroup;
-			children = (
-				ED8729E72222D39900B8B6E3 /* Info.plist */,
-			);
-			path = PracticeRoomTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED8729E22222D39800B8B6E3 /* PracticeRoomTests */ = {
+		6201C3E421522220E1272A840141066E /* PracticeRoomTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED8729EA2222D39900B8B6E3 /* Build configuration list for PBXNativeTarget "PracticeRoomTests" */;
+			buildConfigurationList = 70150F29210BA780C6DE633B4EF92604 /* Build configuration list for PBXNativeTarget "PracticeRoomTests" */;
 			buildPhases = (
-				ED8729DF2222D39800B8B6E3 /* Sources */,
-				ED8729E02222D39800B8B6E3 /* Frameworks */,
-				ED8729E12222D39800B8B6E3 /* Resources */,
+				13AA41536AFD6BE7540EB8B220613DFB /* Sources */,
+				607C5B2579569DC5974B6131B0A17715 /* Frameworks */,
+				D5101223F748C96E5058ED6342A9753B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -98,7 +98,7 @@
 			);
 			name = PracticeRoomTests;
 			productName = PracticeRoomTests;
-			productReference = ED8729E32222D39800B8B6E3 /* PracticeRoomTests.xctest */;
+			productReference = 43C361BFF7CD35282009C6A1655C1E81 /* PracticeRoomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F7581FA6528856928B94838FE6E42446 /* PracticeRoom */ = {
@@ -128,7 +128,7 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Jan Nash";
 				TargetAttributes = {
-					ED8729E22222D39800B8B6E3 = {
+					6201C3E421522220E1272A840141066E = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					F7581FA6528856928B94838FE6E42446 = {
@@ -149,13 +149,13 @@
 			projectRoot = "";
 			targets = (
 				F7581FA6528856928B94838FE6E42446 /* PracticeRoom */,
-				ED8729E22222D39800B8B6E3 /* PracticeRoomTests */,
+				6201C3E421522220E1272A840141066E /* PracticeRoomTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED8729E12222D39800B8B6E3 /* Resources */ = {
+		D5101223F748C96E5058ED6342A9753B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,6 +165,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13AA41536AFD6BE7540EB8B220613DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1E9AFDD8D5AACF325906C659DFFD7D2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,16 +180,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED8729DF2222D39800B8B6E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		363F1693B0BF08D04847794B13DEF7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AK5BMJ7QR5;
+				INFOPLIST_FILE = PracticeRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3937FC27EDEDB8CC97607E32C6525B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AK5BMJ7QR5;
+				INFOPLIST_FILE = PracticeRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		5F943A586586FAFA6A0BBBBAD405A3D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -308,42 +344,6 @@
 			};
 			name = Debug;
 		};
-		ED8729E82222D39900B8B6E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AK5BMJ7QR5;
-				INFOPLIST_FILE = PracticeRoomTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		ED8729E92222D39900B8B6E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AK5BMJ7QR5;
-				INFOPLIST_FILE = PracticeRoomTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
 		FE3CD4BE0594FF27380CE1E094A3446C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,20 +357,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		70150F29210BA780C6DE633B4EF92604 /* Build configuration list for PBXNativeTarget "PracticeRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363F1693B0BF08D04847794B13DEF7BB /* Debug */,
+				3937FC27EDEDB8CC97607E32C6525B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ECAE569D037E8FBAACC1EF2131B9D476 /* Build configuration list for PBXProject "PracticeRoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7D9658E644D75752E023DA6D28D946B /* Debug */,
 				C34CEE7D81630A7334A33D9E0BA42CD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED8729EA2222D39900B8B6E3 /* Build configuration list for PBXNativeTarget "PracticeRoomTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED8729E82222D39900B8B6E3 /* Debug */,
-				ED8729E92222D39900B8B6E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
