@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE6ADA418D82200C8AD4A7A3604990B /* mainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211595AAF37BA21ED6F4E4DC0D707348 /* mainTests.swift */; };
 		88C5A6583BD691F76993CF44F98E7F90 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79FA0146DD258F72D200FA2BCC83CE0 /* main.swift */; };
-		ED8729EE2223D4FA00B8B6E3 /* mainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8729ED2223D4FA00B8B6E3 /* mainTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		211595AAF37BA21ED6F4E4DC0D707348 /* mainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTests.swift; sourceTree = "<group>"; };
 		43C361BFF7CD35282009C6A1655C1E81 /* PracticeRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79FA0146DD258F72D200FA2BCC83CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B6C1E2262C35638678FDCD2F41AF0BDB /* PracticeRoom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeRoom; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63BE08F29756F8D48A3EA48DBE1D865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED8729ED2223D4FA00B8B6E3 /* mainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D63BE08F29756F8D48A3EA48DBE1D865 /* Info.plist */,
-				ED8729ED2223D4FA00B8B6E3 /* mainTests.swift */,
+				211595AAF37BA21ED6F4E4DC0D707348 /* mainTests.swift */,
 			);
 			path = PracticeRoomTests;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8729EE2223D4FA00B8B6E3 /* mainTests.swift in Sources */,
+				1AE6ADA418D82200C8AD4A7A3604990B /* mainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
