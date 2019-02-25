@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88C5A6583BD691F76993CF44F98E7F90 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79FA0146DD258F72D200FA2BCC83CE0 /* main.swift */; };
+		ED8729EE2223D4FA00B8B6E3 /* mainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8729ED2223D4FA00B8B6E3 /* mainTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		A79FA0146DD258F72D200FA2BCC83CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B6C1E2262C35638678FDCD2F41AF0BDB /* PracticeRoom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeRoom; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63BE08F29756F8D48A3EA48DBE1D865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8729ED2223D4FA00B8B6E3 /* mainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D63BE08F29756F8D48A3EA48DBE1D865 /* Info.plist */,
+				ED8729ED2223D4FA00B8B6E3 /* mainTests.swift */,
 			);
 			path = PracticeRoomTests;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				TargetAttributes = {
 					6201C3E421522220E1272A840141066E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F7581FA6528856928B94838FE6E42446 = {
 						CreatedOnToolsVersion = 10.1;
@@ -169,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8729EE2223D4FA00B8B6E3 /* mainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +191,7 @@
 		363F1693B0BF08D04847794B13DEF7BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AK5BMJ7QR5;
@@ -197,6 +203,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jannash.PracticeRoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -204,6 +211,7 @@
 		3937FC27EDEDB8CC97607E32C6525B60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AK5BMJ7QR5;
